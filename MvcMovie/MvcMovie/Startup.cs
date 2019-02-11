@@ -42,6 +42,9 @@ namespace MvcMovie
                 app.UseExceptionHandler("/Home/Error");
             }
 
+
+
+
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
